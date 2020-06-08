@@ -1,0 +1,47 @@
+* {
+  margin: 0
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+.contenitore {
+  height: 100%;
+}
+
+aside .contenitore {
+  background-color: pink;
+}
+
+main .contenitore {
+  background-color: violet;
+}
+
+header {
+  height: 80px;
+  background-color: yellow;
+}
+
+aside {
+  width: 20%;
+  height: 500px;
+  float: left;
+  padding: 10px;
+}
+
+main {
+  width: 60%;
+  height: 500px;
+  float: left;
+  padding: 10px;
+}
+
+footer {
+  height: 100px;
+  background-color: blue;
+}
